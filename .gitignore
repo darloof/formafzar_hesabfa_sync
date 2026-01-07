@@ -1,0 +1,33 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+.vscode
+.idea
+
+# compiled python files
+*.py[co]
+__pycache__/
+**/__pycache__/
+# setup.py egg_info
+*.egg-info
+# emacs backup files
+*~
+
+# js tooling
+node_modules
+package-lock.json
+package.json
+.husky
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Cython debug symbols
+cython_debug/
