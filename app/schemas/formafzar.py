@@ -23,6 +23,8 @@ class FormafzarInvoice(BaseModel):
     items: List[FormafzarItem]
 
 
-class FormafzarWebhook(BaseModel):
+class FormafzarContactWebhook(BaseModel):
     contact: FormafzarContact
+
+class FormafzarInvoiceWebhook(BaseModel):
     invoice: FormafzarInvoice
